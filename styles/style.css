@@ -1,0 +1,94 @@
+/* Import Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+/* DEFAULT Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+/* WRAPPER Styles */
+.wrapper {
+    margin-left: 100px;
+    border-radius: 5px;
+    background-color: #202938;
+}
+
+/* HEADER Styles */
+.gameHeader {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px 25px;
+    background-color: #293446;
+}
+.gameHeader span {
+    font-size: 1.2rem;
+    color: #becbe4;
+}
+/* Main Style */
+.gameMain {
+    display: flex;
+    padding: 0;  /* Ensure no padding */
+    margin: 0;   /* Ensure no margin */
+}
+/* FOOTER Styles */
+.gameFooter {
+    display: flex;
+    justify-content: space-between;
+    background-color: #293446;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px 25px;
+}
+.gameFooter button {
+    font-size: 1.1rem;
+    padding: 10px 15px;
+    color: #becbe4;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.gameFooter #startBtn {
+    background-color: #4a5d7d;
+}
+.gameFooter #resetBtn {
+    background-color: #4a5d7d;
+}
+.gameFooter #startBtn:active,
+.gameFooter #resetBtn:active {
+    transform: scale(0.95);
+}
+.gameFooter #startBtn:hover,
+.gameFooter #resetBtn:hover {
+    background-color: #3d4d68;
+}
+
+.gameFooter #startBtn:focus,
+.gameFooter #resetBtn:focus {
+    outline: none;
+}
+.controlls-info {
+    margin-left: 30px;
+}
+.controlls-info li {
+    color: #4A5D7D;
+    list-style-type: none;
+}
+.characters {
+    display: inline-block;
+    margin: 5px;
+    width: 30px;
+    height: auto;
+    text-align: center;
+    border: 1px solid #4A5D7D;
+    border-radius: 2px;
+}
